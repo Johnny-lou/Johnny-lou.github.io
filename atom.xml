@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-17T16:09:03.000Z</updated>
+  <updated>2017-09-17T16:11:01.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,15 +21,16 @@
     <link href="http://yoursite.com/2017/09/18/helloworld1/"/>
     <id>http://yoursite.com/2017/09/18/helloworld1/</id>
     <published>2017-09-17T16:08:17.000Z</published>
-    <updated>2017-09-17T16:09:03.000Z</updated>
+    <updated>2017-09-17T16:11:01.000Z</updated>
     
-    <content type="html"><![CDATA[<img src="/2017/09/18/helloworld1/image1.png" alt="这是一个新的博客的图片的说明" title="这是一个新的博客的图片的说明">]]></content>
+    <content type="html"><![CDATA[<p>testtest<br>我现在写了一个段落，并且想在这个段落的某一个地方<img src="/2017/09/18/helloworld1/image1.png" alt="这是一个新的博客的图片的说明" title="这是一个新的博客的图片的说明">引入一张图片</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;img src=&quot;/2017/09/18/helloworld1/image1.png&quot; alt=&quot;这是一个新的博客的图片的说明&quot; title=&quot;这是一个新的博客的图片的说明&quot;&gt;
+        &lt;p&gt;testtest&lt;br&gt;我现在写了一个段落，并且想在这个段落的某一个地方&lt;img src=&quot;/2017/09/18/helloworld1/image1.png&quot; alt=&quot;这是一个新的博客的图片的说明&quot; title=&quot;这是一个新的博客的图片的说明&quot;&gt;引入一张图片&lt;/p&gt;
+
       
     
     </summary>
