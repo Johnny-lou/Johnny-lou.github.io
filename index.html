@@ -253,7 +253,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/17/我的第一个博客/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/17/Wireshark http抓包分析/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Johnny-lou">
@@ -272,7 +272,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/09/17/我的第一个博客/" itemprop="url">我的第一个博客</a></h1>
+                <a class="post-title-link" href="/2017/09/17/Wireshark http抓包分析/" itemprop="url">Wireshark http抓包分析</a></h1>
         
 
         <div class="post-meta">
@@ -321,127 +321,14 @@
       
         
           
-            <p>  欢迎来到我的博客！</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/05/20/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Johnny-lou">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/upload/f.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Johnny-lou博客之旅">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/05/20/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-20T23:05:48+08:00">
-                2017-05-20
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+            <p>1.wireshark数据包简单分析<br>当浏览器访问网络地址<a href="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4时，wireshark抓到的包如下，其中每一行对应一个包，比如325行对应的是客户端（ip192.168.1.103）发送给服务器（ip218.108.248.228）的包，326行对应的服务器回给客户端的包。" target="_blank" rel="external">http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4时，wireshark抓到的包如下，其中每一行对应一个包，比如325行对应的是客户端（ip192.168.1.103）发送给服务器（ip218.108.248.228）的包，326行对应的服务器回给客户端的包。</a></p>
+<p>双击328行，可以看到该包对应的具体内容：</p>
+<p>Frame：是物理层的数据帧信息<br>Ethernet II：是链路层以太网帧头部信息<br>Internet Protocol：是互联网ip包头部信息<br>Transmission Control Protocol：是传输层数据包头部信息<br>Hypertext Transfer Protocol：是应用层数据包头部信息</p>
+<p>2.wireshark数据包具体分析<br>当浏览器访问web服务器是，通常会有DNS请求与相应，TCP三次握手，HTTP请求与相应等过程，下面具体分析访问<a href="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4这个网址时的请求过程。" target="_blank" rel="external">http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4这个网址时的请求过程。</a><br>2.1 DNS请求过程</p>
+<p>323行发送的是DNS请求，查找与主机名对应的ip地址；324对应的是DNS请求回包，返回的是与主机名相关的ip地址<br>2.2 TCP三次握手</p>
+<p>325行是客户端发送给服务端的TCP请求，请求建立连接，标识为SYN；<br>326行是服务端收到客户端连接请求后，发送给客户端的确认包，标识为SYN，ACK；<br>327行是客户端发收到服务端的确认包后，发送给服务端的确认包，标识为ACK；<br>通过以上三步，客户端与服务端最终建立TCP连接。<br>2.3 发送HTTP请求<br>客户端与服务端建立TCP连接之后，客户端发起文件下载的HTTP请求</p>
+<p>328行发起http请求，请求方式时GET<br>329行服务端回包，302说明当前请求地址发生了重定向，请求资源的地址发生了变化<br>330-331行结束了上次的http请求，并拿到新的服务器ip地址<br>332-334行重新发起了TCP握手连接<br>335行根据新的请求地址，重新发起http文件下载请求，请求方式仍然时GET<br>336行是服务器响应http请求，告诉客户端已经收到http请求了，标识为ACK<br>337行是服务端向客户端响应内容的过程，表示文件内容数据已经到达客户端<br>337-343行都是服务端和客户端交互应答的过程<br>TCP segment of a reassembled PDU表示服务端往客户端传输分段的数据包，当数据包大于MSS，数据包就会<br>分段传输，分段的数据包具有相同的Ack；通过追踪TCP流，可以查看具体的数据信息。</p>
+<p>344行是客户端告诉服务端，现在客户端有足够的空间来接收数据；window update是客户端或服务端告诉对方应该以多<br>        大的速度来发送数据，使得之间的传输正常。</p>
 
           
         
@@ -521,7 +408,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">1</span>
                 <span class="site-state-item-name">Artikel</span>
               </a>
             </div>
